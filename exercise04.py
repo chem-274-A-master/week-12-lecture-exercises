@@ -12,6 +12,8 @@ Hint: The test for this file counts words which are parts of other words (ex 'la
  but "Law" would not count (case sensitive)). In real life, you would want to be more careful about word/character counting, 
  but we aren't going that far into text processing.
 
+The script should print a message like "The word 'WORD' occurred X times in the file FILENAME."
+
 Your script should have a help message and a description for each argument.
 """
 

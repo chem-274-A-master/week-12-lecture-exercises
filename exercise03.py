@@ -9,7 +9,6 @@ To use your script, you should be able to go to the Shell tab on the right and t
 
 python main.py FILENAME
 
-The test is for file1.txt.
 """
 
 
