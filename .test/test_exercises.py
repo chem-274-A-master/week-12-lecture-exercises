@@ -24,9 +24,7 @@ def test_exercise02():
     with open("sample.txt", "r") as f:
         text = f.read()
     
-    num_words = len(text.split())
-    
-    assert exercise02.run_subprocess() == num_words
+    assert exercise02.run_subprocess() == text
 
 # Test for command line functionality
 def test_exercise03():
